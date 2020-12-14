@@ -1,0 +1,49 @@
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: white;
+  padding: 40px 140px 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px -1px rgb(0 0 0 / 20%);
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+
+.info-card:hover {
+  transform: scale(1.05);
+}
+
+.info-card.Deaths:hover,
+.info-card.Cases:hover {
+  border-top: 8px solid #e74c3c;
+}
+
+.info-card.Recovered:hover {
+  border-top: 8px solid #2ecc71;
+}
+
+.info-card .card-title,
+.all-time-infos {
+  color: darkgray;
+}
+
+.today-infos {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.today-infos.Deaths,
+.today-infos.Cases {
+  color: #e74c3c;
+}
+
+.today-infos.Recovered {
+  color: #2ecc71;
+}
+
+@media screen and (max-width: 1000px) {
+  .info-card {
+    padding: 20px 100px 20px 30px;
+  }
+}

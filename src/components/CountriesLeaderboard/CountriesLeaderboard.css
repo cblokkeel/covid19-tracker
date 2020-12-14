@@ -1,0 +1,13 @@
+.leaderboard-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.even {
+  background: rgb(0 0 0 / 10%);
+}
+
+.odd {
+  background: rgb(0 0 0 / 22%);
+}
