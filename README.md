@@ -9,8 +9,19 @@ Covid 19 tracker is a project created with React.JS which allow you to track Cov
 
 ---
 
-Preview : 
+## Preview : 
 
 ![Covid Tracker preview](./live.png)
+
+---
+
+## Mobile version : 
+
+![Covid Tracker mobile version preview](./mobile.gif)
+
+---
+
+The whole app was done by myself.
+Hope that you find it cool ! :sparkles:
 
 
